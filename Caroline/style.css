@@ -1,0 +1,88 @@
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+img {
+  height: 100%;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Exotc350 DmBd BT';
+
+}
+
+
+
+/*FONTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+h1 {
+  font-family: 'Great Vibes';
+}
+
+
+
+/*HEADER*/
+
+#header {
+
+  display: flex;
+  width: 100%;
+  background-color: rgb(211, 118, 128);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 1rem;
+  font-size: 5vw; 
+  
+}
+
+#header .logo {
+
+ font-weight: lighter;
+
+}
+
+/*NAVIGATION*/
+
+#menu {
+
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.085);
+  width: 100%;
+  text-align: center;
+  
+}
+
+#menu .menu-list {
+
+  display: flex;
+  list-style: none;
+  font-size: 3vw;
+  justify-content: space-evenly;
+
+}
+
+#menu .menu-list li a{
+
+  display: inline-block;
+  padding: 1vw;
+
+}
+
+#menu .menu-list li a:hover{
+  color: rgb(255, 220, 95);
+  background-color: rgba(0, 0, 0, 0.22);
+}
+
+
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      var player1
+      var obj
+
+      player1 = prompt('Player 1 Digite seu Nome: ')
+      player2 = prompt('Player 2 Digite seu Nome: ')
+
+      while (obj != 'exit') {
+        obj = prompt(
+          player1 +
+            ' Você vai para uma ilha deserta. Qual objeto você vai levar? '
+        )
+
+        if (
+          obj.substr(0, 1).toUpperCase() == player1.substr(0, 1).toUpperCase()
+        ) {
+          alert('Você pode pode levar um(a) ' + obj)
+        } else {
+          alert('Você não pode levar um(a) ' + obj)
+        }
+
+        obj = prompt(
+          player2 +
+            ' Você vai para uma ilha deserta. Qual objeto você vai levar? '
+        )
+
+        if (
+          obj.substr(0, 1).toUpperCase() == player2.substr(0, 1).toUpperCase()
+        ) {
+          alert('Você pode pode levar um(a) ' + obj)
+        } else {
+          alert('Você não pode levar um(a) ' + obj)
+        }
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

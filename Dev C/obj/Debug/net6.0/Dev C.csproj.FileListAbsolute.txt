@@ -1,0 +1,15 @@
+C:\Users\Fonseca\Documents\Projetos\Dev C\bin\Debug\net6.0\Dev C.exe
+C:\Users\Fonseca\Documents\Projetos\Dev C\bin\Debug\net6.0\Dev C.deps.json
+C:\Users\Fonseca\Documents\Projetos\Dev C\bin\Debug\net6.0\Dev C.runtimeconfig.json
+C:\Users\Fonseca\Documents\Projetos\Dev C\bin\Debug\net6.0\Dev C.dll
+C:\Users\Fonseca\Documents\Projetos\Dev C\bin\Debug\net6.0\Dev C.pdb
+C:\Users\Fonseca\Documents\Projetos\Dev C\obj\Debug\net6.0\Dev C.csproj.AssemblyReference.cache
+C:\Users\Fonseca\Documents\Projetos\Dev C\obj\Debug\net6.0\Dev C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fonseca\Documents\Projetos\Dev C\obj\Debug\net6.0\Dev C.AssemblyInfoInputs.cache
+C:\Users\Fonseca\Documents\Projetos\Dev C\obj\Debug\net6.0\Dev C.AssemblyInfo.cs
+C:\Users\Fonseca\Documents\Projetos\Dev C\obj\Debug\net6.0\Dev C.csproj.CoreCompileInputs.cache
+C:\Users\Fonseca\Documents\Projetos\Dev C\obj\Debug\net6.0\Dev C.dll
+C:\Users\Fonseca\Documents\Projetos\Dev C\obj\Debug\net6.0\refint\Dev C.dll
+C:\Users\Fonseca\Documents\Projetos\Dev C\obj\Debug\net6.0\Dev C.pdb
+C:\Users\Fonseca\Documents\Projetos\Dev C\obj\Debug\net6.0\Dev C.genruntimeconfig.cache
+C:\Users\Fonseca\Documents\Projetos\Dev C\obj\Debug\net6.0\ref\Dev C.dll
