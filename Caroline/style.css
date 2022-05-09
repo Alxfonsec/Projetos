@@ -1,3 +1,18 @@
+/*FONTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@font-face {
+  font-family: 'Exotc350';
+  src: url(fonts/EXO350DB.TTF);
+}
+
+
+h1 {
+  font-family: 'Great Vibes';
+}
+
+
 /*RESET*/
 * {
   margin: 0;
@@ -12,22 +27,20 @@ img {
 a{
   color: white;
   text-decoration: none;
-  font-family: 'Exotc350 DmBd BT';
+  font-family: 'Exotc350';
 
 }
 
+/*VARIAVEIS*/
 
+:root {
+--color1: #EAADB3;
+--color2: #E66572;
+--color3: #B34F59;
+--color4: #662D33;
+--color5: #664B4E;
 
-/*FONTS*/
-
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
-
-h1 {
-  font-family: 'Great Vibes';
 }
-
-
 
 /*HEADER*/
 
@@ -35,7 +48,7 @@ h1 {
 
   display: flex;
   width: 100%;
-  background-color: rgb(211, 118, 128);
+  background-color: var(--color2);
   color: white;
   justify-content: center;
   align-items: center;
@@ -48,6 +61,7 @@ h1 {
 #header .logo {
 
  font-weight: lighter;
+ 
 
 }
 
@@ -56,7 +70,7 @@ h1 {
 #menu {
 
   padding: 0;
-  background-color: rgba(0, 0, 0, 0.085);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0));
   width: 100%;
   text-align: center;
   
@@ -79,8 +93,11 @@ h1 {
 }
 
 #menu .menu-list li a:hover{
-  color: rgb(255, 220, 95);
-  background-color: rgba(0, 0, 0, 0.22);
+  color: var(--color1);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.034), rgba(0, 0, 0, 0));
+  font-size: 3.5vw;
+  transition: .5s;
+  
 }
 
 
