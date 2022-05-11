@@ -1,6 +1,7 @@
 /*FONTS*/
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
 
 @font-face {
   font-family: 'Exotc350';
@@ -8,10 +9,17 @@
 }
 
 
+
 h1 {
   font-family: 'Great Vibes';
 }
 
+/*EFFECTS*/
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: .8; }
+  }
 
 /*RESET*/
 * {
@@ -28,7 +36,8 @@ img {
 a{
   color: white;
   text-decoration: none;
-  font-family: 'Exotc350';
+  font-family: 'Zen Loop';
+  font-weight: bold;
 
 }
 
@@ -70,10 +79,13 @@ a{
 
 #menu {
 
-  padding: 0;
+  display: flex;
   background-color: var(--color5);
   width: 100%;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 5.5vw;  
   
 }
 
@@ -81,14 +93,14 @@ a{
 
   display: flex;
   list-style: none;
-  font-size: 3.5vw;
+  font-size: 4vw;
   justify-content: space-evenly;
-
+  width: 100%;
+  
 }
 
 #menu .menu-list li a{
 
-  display: inline-block;
   padding: 1vw;
 
 }
@@ -96,7 +108,7 @@ a{
 #menu .menu-list li a:hover{
 
   color: var(--color1);
-  font-size: 4vw;
+  font-size: 4.5vw;
   transition: .5s;
   
 }
@@ -116,6 +128,8 @@ a{
 
 }
 
+
+
 .container-image h3 {
   position: absolute;
   left: 50%;
@@ -123,11 +137,18 @@ a{
   transform: translate(-50%,-50%);
   text-align: center;
   color: white;
-  font: normal 3rem 'Exotc350'; 
-  opacity: 1;
-  transition: opacity(0) 2s ease-in-out;
-  
+  font: normal 15vw 'Zen Loop'; 
+  animation: fadeIn 2s ease-in-out;
+  width: 90%;
   
   
 }
 
+
+
+.container-image h3:hover {
+  
+  font-size: 15.5vw;
+  transition: 0.5s;
+  width: 95%;
+}
