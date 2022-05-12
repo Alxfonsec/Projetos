@@ -11,7 +11,8 @@
 
 
 h1 {
-  font-family: 'Great Vibes';
+  font-family: 'Zen Loop';
+  
 }
 
 /*EFFECTS*/
@@ -63,11 +64,12 @@ a{
 
   display: flex;
   width: 100%;
-  background-color: var(--color2);
+  background-color: var(--color3);
   color: white;
   justify-content: space-between;
   align-items: center;
   padding-top: .5rem;
+  padding-bottom: .5rem;
   font-size: 4vw; 
   
 }
@@ -156,7 +158,7 @@ a{
   font: normal 15vw 'Zen Loop'; 
   animation: fadeIn 2s ease-in-out;
   opacity: .7;
-  width: 90%;
+  width: 100%;
   
   
 }
@@ -167,5 +169,5 @@ a{
   
   font-size: 15.5vw;
   transition: 0.5s;
-  width: 95%;
+  width: 100%;
 }
