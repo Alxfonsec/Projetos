@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
 
 @font-face {
   font-family: 'Exotc350';
@@ -11,9 +12,11 @@
 
 
 h1 {
-  font-family: 'Zen Loop';
+  font-family: 'Caveat';
+  font-weight: lighter;
   
 }
+
 
 /*EFFECTS*/
 
@@ -21,6 +24,11 @@ h1 {
   0% { opacity: 0; }
   100% { opacity: .7; }
   }
+
+@keyframes zoomin{
+  0% {zoom: 0;}
+  100% {zoom: 100%;}
+}
 
 /*RESET*/
 * {
@@ -43,8 +51,8 @@ a{
 }
 
 .container {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 /*VARIAVEIS*/
@@ -74,12 +82,24 @@ a{
   
 }
 
-#header .logo {
+.logo {
 
- font-weight: lighter;
- 
+ line-height: 5vw;
+}
+
+.logo1{
+
+  font-size: 8vw; 
 
 }
+.logo2{
+
+  font-size: 5vw;
+  color: var(--color4);
+  text-align: end;
+  
+}
+
 
 .whatsapp, .instagram{
   display: flex;
@@ -87,6 +107,11 @@ a{
   font-size: 4vw;
   font-family: 'Zen Loop';
   font-weight: normal;
+}
+
+.whatsapp:hover, .instagram:hover {
+  font-size:4.1vw;
+  transition: .5s;
 }
 
 .contacts i {
@@ -126,8 +151,8 @@ a{
 #menu .menu-list li a:hover{
 
   color: var(--color1);
-  font-size: 4.5vw;
-  transition: .5s;
+  filter: ;
+  transition: .5s; 
   
 }
 
