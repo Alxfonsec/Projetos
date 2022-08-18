@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
 * {
   margin: 0;
   padding: 0;
@@ -219,10 +220,6 @@ img {
 
 /*TEXT BANNER*/
 
-.countainer-banner {
-  width: 100%;
-  height: 100%;
-}
 
 #text-banner {
  position: absolute;
@@ -238,14 +235,14 @@ img {
 
 #text-banner h3 {
   color: #E45F4E;
-  font-size: 1.5rem;
+  font-size: 2vw;
   text-transform: uppercase;
 
 }
 
 #text-banner h2 {
-  font-size: 3.5rem;
-  margin: 1rem auto;
+  font-size: 4vw;
+  margin: 5vw auto;
   text-transform: uppercase;
 }
 
@@ -253,7 +250,7 @@ img {
 
   font-family: 'Roboto';
   display: inline-block;
-  font-size: 1.25rem;
+  font-size: 2vw;
   padding: .7rem 1.5rem;
   background-color: #E45F4E;
     
@@ -278,19 +275,20 @@ img {
 }
 
 .card {
-  width: 32%;
   text-align: justify;
-  padding: 5rem 2rem;
+  padding: 5vw 2vw;
+  font-size: 1.2vw;
 }
 
 .vertical2 {
   display: inline-block;
-  height: 15rem;
+  height: 10vw;
   border-right: 1px solid #ececec;
 }
 
 .card h3 {
   color: #333333;
+  
 }
 
 .card p {
@@ -312,15 +310,17 @@ img {
 #about-us {
   background-color: #f8f8f8; 
   display: flex; 
+  height: 50%;
 }
 
 #about-us .button {
-  margin-top: 2rem;
+  margin-top: 2vw;
 }
 
 
 .about-img {
   width: 50%;
+  height: 50%;
 }
 
 
@@ -328,6 +328,7 @@ img {
   display: flex;
   align-items: center;
   max-width: 50%;
+
 }
 
 .about-text-container {
@@ -338,7 +339,8 @@ img {
 
 .text-about{
 
-  padding: .8rem 0;
+  padding: .8vw 0;
+   
 
 }
 
@@ -346,13 +348,13 @@ img {
 
   color: #E45F4E;
   text-transform: uppercase;
-  font-size: 1.3rem;
+  font-size: 1.3vw;
 
 }
 
 .about-text-container h2 {
 
-    font-size: 2.5rem;
+    font-size: 2.5vw;
     font-weight: 500;
     
 }
@@ -361,14 +363,14 @@ img {
 
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem;
-  margin-bottom: 6rem;    
+  margin-top: 2vw;
+  margin-bottom: 6vw;    
 
 }
 
 .seal-first {
 
-  height: 5rem;
+  height: 5vw;
 
 }
 
@@ -379,7 +381,7 @@ img {
 
 .seal-second {
 
-  height: 5rem;
+  height: 5vw;
 
 }
 
@@ -535,15 +537,15 @@ img {
   
 }
 
-#numbers .imagem-numbers-cards {
-  height: 50px;
-  width: 50px;
+#numbers .material-icons {
+  font-size: 4rem;
+  padding: 1rem;
+  border: 4px solid white;
   border-radius: 50%;
-  border: 1px solid white;
 }
 
 #numbers .imagem-numbers-cards img{
-  padding: .6rem;
+  
 }
 
 #numbers h3 {
